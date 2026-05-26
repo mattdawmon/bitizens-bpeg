@@ -21,7 +21,7 @@ Single-chain deployment by design — every contract, the Uniswap v4 Hook, the A
 
 ## Contract Addresses
 
-All contracts are deployed and verified on BscScan (BNB Smart Chain, Chain ID 56).
+All contracts below are deployed and verified on BscScan (BNB Smart Chain, Chain ID 56).
 
 | Contract | Address | Role |
 |----------|---------|------|
@@ -29,7 +29,6 @@ All contracts are deployed and verified on BscScan (BNB Smart Chain, Chain ID 56
 | Bitizen Registry | `0x09313de0B072DBD548394f47A1F7c5bE08f5bc8E` | Owns the underlying NFT state, enforces the 1:1 bond |
 | Uniswap v4 Hook | `0x097cA33924Ad253EF9FC8471c4490566E0eF1000` | Mints/burns NFTs on every pool swap |
 | Marketplace | `0xBb5248fF0fb70dFA8e19415e96f4e652A970977C` | EIP-712 off-chain order book settlement |
-| On-Chain Renderer | `0xE13bd285b6dda023386553603B0831524b9F0d7e` | Pure-Solidity SVG renderer (no IPFS) |
 | Wrapped Bitizen (ERC-721) | `0x3dd42faD063C6076Ef64952e8893e6940564819e` | Optional ERC-721 wrapper for Element / OpenSea |
 | Wrap Escrow | `0x8545a3b74962e694B75eA4420F61cd1284011805` | Trustless wrap/unwrap between bonded and standalone NFT |
 | Uniswap v4 PoolManager | `0x28e2Ea090877bF75740558f6BFB36A5ffeE9e9dF` | Canonical BSC v4 PoolManager (BPEG/BNB pool with custom hook) |
