@@ -1,0 +1,24 @@
+Copyright (c) 2026 BITIZENS (BPEG). All Rights Reserved.
+
+The contents of this repository are proprietary. No license, express or implied,
+is granted to copy, modify, distribute, sublicense, or create derivative works
+from any material in this repository (including but not limited to source code,
+documentation, contract ABIs, images, and design assets) without the prior
+written permission of the copyright holder.
+
+The deployed smart contracts referenced in this repository are publicly
+verifiable on BscScan and may be read by any party. Publication of contract
+bytecode and ABI for the purpose of on-chain interaction does NOT grant any
+license to copy, fork, redeploy, or otherwise reuse the underlying source code,
+artwork, generative algorithms, on-chain renderer, off-chain order book design,
+or any other intellectual property.
+
+For licensing inquiries, contact the maintainer (see SECURITY.md).
+
+THE INFORMATION IN THIS REPOSITORY IS PROVIDED "AS IS", WITHOUT WARRANTY OF
+ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO
+EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE INFORMATION IN THIS REPOSITORY OR THE USE OR
+OTHER DEALINGS IN THE DEPLOYED CONTRACTS.
