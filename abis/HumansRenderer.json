@@ -1,0 +1,103 @@
+[
+  {
+    "type": "function",
+    "name": "gridToSVG",
+    "inputs": [
+      {
+        "name": "grid",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "stateMutability": "pure"
+  },
+  {
+    "type": "function",
+    "name": "paintGrid",
+    "inputs": [
+      {
+        "name": "roll",
+        "type": "tuple",
+        "internalType": "struct HumansGenerator.Roll",
+        "components": [
+          {
+            "name": "body",
+            "type": "uint8",
+            "internalType": "uint8"
+          },
+          {
+            "name": "partIdx",
+            "type": "uint8[11]",
+            "internalType": "uint8[11]"
+          },
+          {
+            "name": "colorCodes",
+            "type": "uint16[6]",
+            "internalType": "uint16[6]"
+          },
+          {
+            "name": "seedU32",
+            "type": "uint32",
+            "internalType": "uint32"
+          }
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "grid",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "svg",
+    "inputs": [
+      {
+        "name": "roll",
+        "type": "tuple",
+        "internalType": "struct HumansGenerator.Roll",
+        "components": [
+          {
+            "name": "body",
+            "type": "uint8",
+            "internalType": "uint8"
+          },
+          {
+            "name": "partIdx",
+            "type": "uint8[11]",
+            "internalType": "uint8[11]"
+          },
+          {
+            "name": "colorCodes",
+            "type": "uint16[6]",
+            "internalType": "uint16[6]"
+          },
+          {
+            "name": "seedU32",
+            "type": "uint32",
+            "internalType": "uint32"
+          }
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]
